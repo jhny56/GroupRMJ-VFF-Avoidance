@@ -1,11 +1,11 @@
-#include "avoidance/avoidance_node.hpp"
+#include "avoidance.hpp"
 #include <cmath>
 #include <algorithm>
 
 AvoidanceNode::AvoidanceNode() : Node("avoidance_node")
 {
   lidar_sub_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
-    "rear_lidar", 10, std::bind(&AvoidanceNode::lidar_callback, this, std::placeholders::_1));
+    "scan", 10, std::bind(&AvoidanceNode::lidar_callback, this, std::placeholders::_1));
   cmd_vel_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
   marker_pub_ = this->create_publisher<visualization_msgs::msg::Marker>("vector_markers", 10);
 }

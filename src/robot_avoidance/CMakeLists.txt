@@ -25,11 +25,22 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# Include directories
+include_directories(
+  include
+  ${rclcpp_INCLUDE_DIRS}
+  ${geometry_msgs_INCLUDE_DIRS}
+  ${sensor_msgs_INCLUDE_DIRS}
+  ${nav_msgs_INCLUDE_DIRS}
+  ${std_msgs_INCLUDE_DIRS}
+)
+
+
 find_package(visualization_msgs REQUIRED)
 
-add_executable(avoidance_node src/avoidance_node.cpp)
+add_executable(avoidance src/avoidance.cpp)
 
-ament_target_dependencies(avoidance_node 
+ament_target_dependencies(avoidance
   rclcpp 
   sensor_msgs 
   geometry_msgs 
@@ -37,7 +48,7 @@ ament_target_dependencies(avoidance_node
 )
 
 install(TARGETS
-  avoidance_node
+  avoidance
   DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY include/

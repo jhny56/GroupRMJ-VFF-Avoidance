@@ -7,9 +7,9 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='avoidance',
-            executable='avoidance_node',
-            name='avoidance_node',
+            package='robot_avoidance',
+            executable='avoidance',
+            name='avoidance',
             output='screen',
             parameters=[
                 # Add any parameters here if needed

@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000127] (robot_avoidance) JobQueued: {'identifier': 'robot_avoidance', 'dependencies': OrderedDict()}
+[0.000154] (robot_avoidance) JobStarted: {'identifier': 'robot_avoidance'}
+[0.005457] (robot_avoidance) JobProgress: {'identifier': 'robot_avoidance', 'progress': 'cmake'}
+[0.005619] (robot_avoidance) JobProgress: {'identifier': 'robot_avoidance', 'progress': 'build'}
+[0.006139] (robot_avoidance) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance', '--', '-j16', '-l16'], 'cwd': '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jhny56'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jhny56'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jhny56'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jhny56'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jhny56:@/tmp/.ICE-unix/2074,unix/jhny56:/tmp/.ICE-unix/2074'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/40b409c0_1bea_4c57_a7bb_d3daf334a9f9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance:/opt/ros/humble')]), 'shell': False}
+[0.023275] (robot_avoidance) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099334] (-) TimerEvent: {}
+[0.108121] (robot_avoidance) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.127563] (robot_avoidance) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.129060] (robot_avoidance) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.132881] (robot_avoidance) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.140149] (robot_avoidance) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.150304] (robot_avoidance) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.187996] (robot_avoidance) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.188917] (robot_avoidance) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199429] (-) TimerEvent: {}
+[0.268712] (robot_avoidance) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299551] (-) TimerEvent: {}
+[0.371822] (robot_avoidance) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.399675] (-) TimerEvent: {}
+[0.455681] (robot_avoidance) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.499868] (-) TimerEvent: {}
+[0.536726] (robot_avoidance) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.582920] (robot_avoidance) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.583812] (robot_avoidance) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/include\n'}
+[0.583866] (robot_avoidance) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.583981] (robot_avoidance) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.584156] (robot_avoidance) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.584391] (robot_avoidance) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.584735] (robot_avoidance) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.584782] (robot_avoidance) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.584939] (robot_avoidance) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.585863] (robot_avoidance) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.595369] (robot_avoidance) StdoutLine: {'line': b'-- Generating done\n'}
+[0.596274] (robot_avoidance) StdoutLine: {'line': b'-- Build files have been written to: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance\n'}
+[0.599970] (-) TimerEvent: {}
+[0.620452] (robot_avoidance) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o\x1b[0m\n'}
+[0.700108] (-) TimerEvent: {}
+[0.800381] (-) TimerEvent: {}
+[0.900667] (-) TimerEvent: {}
+[1.000941] (-) TimerEvent: {}
+[1.101297] (-) TimerEvent: {}
+[1.201542] (-) TimerEvent: {}
+[1.301911] (-) TimerEvent: {}
+[1.402271] (-) TimerEvent: {}
+[1.502625] (-) TimerEvent: {}
+[1.603002] (-) TimerEvent: {}
+[1.703341] (-) TimerEvent: {}
+[1.803677] (-) TimerEvent: {}
+[1.904021] (-) TimerEvent: {}
+[2.004298] (-) TimerEvent: {}
+[2.104556] (-) TimerEvent: {}
+[2.204899] (-) TimerEvent: {}
+[2.305280] (-) TimerEvent: {}
+[2.405508] (-) TimerEvent: {}
+[2.505727] (-) TimerEvent: {}
+[2.606076] (-) TimerEvent: {}
+[2.706416] (-) TimerEvent: {}
+[2.806764] (-) TimerEvent: {}
+[2.907103] (-) TimerEvent: {}
+[3.007435] (-) TimerEvent: {}
+[3.107798] (-) TimerEvent: {}
+[3.208124] (-) TimerEvent: {}
+[3.308483] (-) TimerEvent: {}
+[3.408844] (-) TimerEvent: {}
+[3.509175] (-) TimerEvent: {}
+[3.609438] (-) TimerEvent: {}
+[3.709722] (-) TimerEvent: {}
+[3.810025] (-) TimerEvent: {}
+[3.910326] (-) TimerEvent: {}
+[4.010566] (-) TimerEvent: {}
+[4.110889] (-) TimerEvent: {}
+[4.211245] (-) TimerEvent: {}
+[4.311571] (-) TimerEvent: {}
+[4.411793] (-) TimerEvent: {}
+[4.512005] (-) TimerEvent: {}
+[4.612228] (-) TimerEvent: {}
+[4.712561] (-) TimerEvent: {}
+[4.812951] (-) TimerEvent: {}
+[4.913284] (-) TimerEvent: {}
+[5.013508] (-) TimerEvent: {}
+[5.113747] (-) TimerEvent: {}
+[5.213964] (-) TimerEvent: {}
+[5.314193] (-) TimerEvent: {}
+[5.414534] (-) TimerEvent: {}
+[5.514873] (-) TimerEvent: {}
+[5.615206] (-) TimerEvent: {}
+[5.715566] (-) TimerEvent: {}
+[5.815897] (-) TimerEvent: {}
+[5.916228] (-) TimerEvent: {}
+[6.016551] (-) TimerEvent: {}
+[6.116877] (-) TimerEvent: {}
+[6.217209] (-) TimerEvent: {}
+[6.317461] (-) TimerEvent: {}
+[6.329379] (robot_avoidance) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable avoidance\x1b[0m\n'}
+[6.417553] (-) TimerEvent: {}
+[6.517823] (-) TimerEvent: {}
+[6.616124] (robot_avoidance) StdoutLine: {'line': b'[100%] Built target avoidance\n'}
+[6.618031] (-) TimerEvent: {}
+[6.624669] (robot_avoidance) CommandEnded: {'returncode': 0}
+[6.640063] (robot_avoidance) JobProgress: {'identifier': 'robot_avoidance', 'progress': 'install'}
+[6.645660] (robot_avoidance) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance'], 'cwd': '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jhny56'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jhny56'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '3675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jhny56'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jhny56'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jhny56:@/tmp/.ICE-unix/2074,unix/jhny56:/tmp/.ICE-unix/2074'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/40b409c0_1bea_4c57_a7bb_d3daf334a9f9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance:/opt/ros/humble')]), 'shell': False}
+[6.651351] (robot_avoidance) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.651453] (robot_avoidance) StdoutLine: {'line': b'-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance\n'}
+[6.654467] (robot_avoidance) StdoutLine: {'line': b'-- Set runtime path of "/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance" to ""\n'}
+[6.654576] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/include/\n'}
+[6.654724] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/include//robot_avoidance\n'}
+[6.654801] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch\n'}
+[6.654862] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch/robot_avoidance_launch.py\n'}
+[6.654917] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/package_run_dependencies/robot_avoidance\n'}
+[6.655125] (robot_avoidance) StdoutLine: {'line': b'-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/parent_prefix_path/robot_avoidance\n'}
+[6.655257] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.sh\n'}
+[6.655357] (robot_avoidance) StdoutLine: {'line': b'-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.dsv\n'}
+[6.655450] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.sh\n'}
+[6.655541] (robot_avoidance) StdoutLine: {'line': b'-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.dsv\n'}
+[6.655629] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.bash\n'}
+[6.655717] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.sh\n'}
+[6.655804] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.zsh\n'}
+[6.655962] (robot_avoidance) StdoutLine: {'line': b'-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.dsv\n'}
+[6.656198] (robot_avoidance) StdoutLine: {'line': b'-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.dsv\n'}
+[6.656867] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/packages/robot_avoidance\n'}
+[6.656988] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig.cmake\n'}
+[6.657033] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig-version.cmake\n'}
+[6.657075] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.xml\n'}
+[6.657115] (robot_avoidance) CommandEnded: {'returncode': 0}
+[6.689877] (robot_avoidance) JobEnded: {'identifier': 'robot_avoidance', 'rc': 0}
+[6.690761] (-) EventReactorShutdown: {}
