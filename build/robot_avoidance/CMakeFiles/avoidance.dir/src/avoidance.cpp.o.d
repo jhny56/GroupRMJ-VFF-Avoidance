@@ -629,4 +629,89 @@ CMakeFiles/avoidance.dir/src/avoidance.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+ /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp \
+ /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point32.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp \
+ /usr/include/kdl/frames.hpp /usr/include/kdl/utilities/kdl-config.h \
+ /usr/include/kdl/utilities/utility.h \
+ /usr/include/kdl/utilities/kdl-config.h /usr/include/kdl/frames.inl \
+ /opt/ros/humble/include/tf2/tf2/convert.h \
+ /opt/ros/humble/include/tf2/tf2/exceptions.h \
+ /opt/ros/humble/include/tf2/tf2/visibility_control.h \
+ /opt/ros/humble/include/tf2/tf2/impl/convert.h \
+ /opt/ros/humble/include/tf2/tf2/transform_datatypes.h \
+ /opt/ros/humble/include/tf2/tf2/time.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.h \
+ /usr/include/c++/11/math.h /usr/include/c++/11/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.h

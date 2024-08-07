@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240807-0845-Experimental"
+	Name="jhny56"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="jhny56"
+	OSRelease="6.5.0-45-generic"
+	OSVersion="#45~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul 15 16:40:02 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="3814"
+	TotalPhysicalMemory="15706"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2015.59"
+	>
+	<Testing>
+		<StartDateTime>Aug 07 12:20 EEST</StartDateTime>
+		<StartTestTime>1723022441</StartTestTime>
+		<TestList/>
+		<EndDateTime>Aug 07 12:20 EEST</EndDateTime>
+		<EndTestTime>1723022441</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

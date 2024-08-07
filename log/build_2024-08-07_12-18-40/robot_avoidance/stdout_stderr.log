@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target avoidance[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+In file included from [01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:1[m[K:
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/odometry.hpp: No such file or directory
+    8 | #include [01;31m[K"nav_msgs/msg/odometry.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/avoidance.dir/build.make:76: CMakeFiles/avoidance.dir/src/avoidance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/avoidance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
