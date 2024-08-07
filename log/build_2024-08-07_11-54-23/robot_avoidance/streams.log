@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance -- -j16 -l16
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target avoidance[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[5.623s] [100%] [32m[1mLinking CXX executable avoidance[0m
+[5.900s] [100%] Built target avoidance
+[5.908s] Invoked command in '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance -- -j16 -l16
+[5.938s] Invoking command in '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance
+[5.944s] -- Install configuration: ""
+[5.945s] -- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance
+[5.949s] -- Set runtime path of "/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance" to ""
+[5.949s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/include/
+[5.949s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/include//robot_avoidance
+[5.949s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch/robot_avoidance_launch.py
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/package_run_dependencies/robot_avoidance
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/parent_prefix_path/robot_avoidance
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.sh
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.dsv
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.sh
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.dsv
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.bash
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.sh
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.zsh
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.dsv
+[5.950s] -- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.dsv
+[5.950s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/packages/robot_avoidance
+[5.951s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig.cmake
+[5.951s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig-version.cmake
+[5.951s] -- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.xml
+[5.952s] Invoked command in '/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance

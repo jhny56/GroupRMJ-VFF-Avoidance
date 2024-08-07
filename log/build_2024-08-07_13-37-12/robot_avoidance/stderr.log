@@ -1,0 +1,18 @@
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In constructor ‘[01m[KAvoidanceNode::AvoidanceNode()[m[K’:
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klatest_scan_[m[K’ was not declared in this scope
+   21 |   [01;31m[Klatest_scan_[m[K = nullptr;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In member function ‘[01m[Kvoid AvoidanceNode::lidar_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klatest_scan_[m[K’ was not declared in this scope
+   26 |   [01;31m[Klatest_scan_[m[K = msg;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In member function ‘[01m[Kvoid AvoidanceNode::timer_callback()[m[K’:
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:42:7:[m[K [01;31m[Kerror: [m[K‘[01m[Klatest_scan_[m[K’ was not declared in this scope
+   42 |   if ([01;31m[Klatest_scan_[m[K == nullptr) {
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:47:40:[m[K [01;31m[Kerror: [m[K‘[01m[Klatest_scan_[m[K’ was not declared in this scope
+   47 |   auto repulsion = calculate_repulsion([01;31m[Klatest_scan_[m[K);
+      |                                        [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/avoidance.dir/build.make:76: CMakeFiles/avoidance.dir/src/avoidance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/avoidance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

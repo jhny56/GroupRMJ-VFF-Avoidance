@@ -1,0 +1,50 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance
+[ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[100%] [32m[1mLinking CXX executable avoidance[0m
+[100%] Built target avoidance
+-- Install configuration: ""
+-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance
+-- Set runtime path of "/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance" to ""
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/include/
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/include//robot_avoidance
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch/robot_avoidance_launch.py
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/package_run_dependencies/robot_avoidance
+-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/parent_prefix_path/robot_avoidance
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.sh
+-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.sh
+-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.dsv
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.bash
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.sh
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.zsh
+-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.dsv
+-- Installing: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.dsv
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/packages/robot_avoidance
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig.cmake
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig-version.cmake
+-- Up-to-date: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.xml

@@ -1,0 +1,58 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance
+[35m[1mConsolidate compiler generated dependencies of target avoidance[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In member function ‘[01m[Kvoid AvoidanceNode::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   34 |   [01;31m[Ktf2[m[K::Quaternion quat;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   35 |   [01;31m[Ktf2[m[K::fromMsg(msg->pose.pose.orientation, quat);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:35:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kquat[m[K’ was not declared in this scope; did you mean ‘[01m[Kquad_t[m[K’?
+   35 |   tf2::fromMsg(msg->pose.pose.orientation, [01;31m[Kquat[m[K);
+      |                                            [01;31m[K^~~~[m[K
+      |                                            [32m[Kquad_t[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   37 |   [01;31m[Ktf2[m[K::Matrix3x3 mat(quat);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmat[m[K’ was not declared in this scope
+   39 |   [01;31m[Kmat[m[K.getRPY(roll, pitch, yaw);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In member function ‘[01m[Kstd::vector<float> AvoidanceNode::calculate_resultant(const std::vector<float>&, const std::vector<float>&)[m[K’:
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:79:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angle[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_angle_[m[K’?
+   79 |   float angular_velocity = Kp * (desired_angle - [01;31m[Kcurrent_angle[m[K);
+      |                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                  [32m[Kcurrent_angle_[m[K
+gmake[2]: *** [CMakeFiles/avoidance.dir/build.make:76: CMakeFiles/avoidance.dir/src/avoidance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/avoidance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

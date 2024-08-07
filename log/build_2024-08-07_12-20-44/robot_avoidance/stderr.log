@@ -1,0 +1,25 @@
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In member function ‘[01m[Kvoid AvoidanceNode::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:34:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   34 |   [01;31m[Ktf2[m[K::Quaternion quat;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:35:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   35 |   [01;31m[Ktf2[m[K::fromMsg(msg->pose.pose.orientation, quat);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:35:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kquat[m[K’ was not declared in this scope; did you mean ‘[01m[Kquad_t[m[K’?
+   35 |   tf2::fromMsg(msg->pose.pose.orientation, [01;31m[Kquat[m[K);
+      |                                            [01;31m[K^~~~[m[K
+      |                                            [32m[Kquad_t[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   37 |   [01;31m[Ktf2[m[K::Matrix3x3 mat(quat);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmat[m[K’ was not declared in this scope
+   39 |   [01;31m[Kmat[m[K.getRPY(roll, pitch, yaw);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In member function ‘[01m[Kstd::vector<float> AvoidanceNode::calculate_resultant(const std::vector<float>&, const std::vector<float>&)[m[K’:
+[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:79:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angle[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_angle_[m[K’?
+   79 |   float angular_velocity = Kp * (desired_angle - [01;31m[Kcurrent_angle[m[K);
+      |                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                  [32m[Kcurrent_angle_[m[K
+gmake[2]: *** [CMakeFiles/avoidance.dir/build.make:76: CMakeFiles/avoidance.dir/src/avoidance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/avoidance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
