@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target avoidance[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[100%] [32m[1mLinking CXX executable avoidance[0m
+[100%] Built target avoidance
+-- Install configuration: ""
+-- Installing: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance
+-- Set runtime path of "/home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance" to ""

@@ -1,0 +1,17 @@
+[0.013s] Invoking command in '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance -- -j4 -l4
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target avoidance[0m
+[0.236s] [ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[14.297s] [100%] [32m[1mLinking CXX executable avoidance[0m
+[16.412s] [100%] Built target avoidance
+[16.424s] Invoked command in '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance -- -j4 -l4
+[16.461s] Invoking command in '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance
+[16.498s] -- Install configuration: ""
+[16.506s] -- Installing: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance
+[16.514s] -- Set runtime path of "/home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance" to ""
+[16.514s] [31mCMake Error at cmake_install.cmake:66 (file):
+[16.514s]   file INSTALL cannot find
+[16.514s]   "/home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/include": No
+[16.514s]   such file or directory.
+[16.514s] 
+[16.514s] [0m
+[16.517s] Invoked command in '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance

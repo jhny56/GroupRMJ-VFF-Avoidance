@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.001115] (robot_avoidance) JobQueued: {'identifier': 'robot_avoidance', 'dependencies': OrderedDict()}
+[0.001417] (robot_avoidance) JobStarted: {'identifier': 'robot_avoidance'}
+[0.010441] (robot_avoidance) JobProgress: {'identifier': 'robot_avoidance', 'progress': 'cmake'}
+[0.011257] (robot_avoidance) JobProgress: {'identifier': 'robot_avoidance', 'progress': 'build'}
+[0.014242] (robot_avoidance) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance', '--', '-j4', '-l4'], 'cwd': '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'razanhmede'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/razanhmede'), ('OLDPWD', '/home/razanhmede'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '1834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/razanhmede/Johnny-Answers-Session11/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'razanhmede'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'razanhmede'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/razanhmede-VirtualBox:@/tmp/.ICE-unix/1631,unix/razanhmede-VirtualBox:/tmp/.ICE-unix/1631'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5540a5b_a645_47bb_907a_65b189dd8866'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4JQLS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance:/opt/ros/humble')]), 'shell': False}
+[0.067649] (robot_avoidance) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target avoidance\x1b[0m\n'}
+[0.088380] (robot_avoidance) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o\x1b[0m\n'}
+[0.100017] (-) TimerEvent: {}
+[0.200590] (-) TimerEvent: {}
+[0.301124] (-) TimerEvent: {}
+[0.401593] (-) TimerEvent: {}
+[0.501882] (-) TimerEvent: {}
+[0.602259] (-) TimerEvent: {}
+[0.702638] (-) TimerEvent: {}
+[0.803018] (-) TimerEvent: {}
+[0.903386] (-) TimerEvent: {}
+[1.003956] (-) TimerEvent: {}
+[1.104601] (-) TimerEvent: {}
+[1.205059] (-) TimerEvent: {}
+[1.305513] (-) TimerEvent: {}
+[1.406891] (-) TimerEvent: {}
+[1.507371] (-) TimerEvent: {}
+[1.607711] (-) TimerEvent: {}
+[1.709017] (-) TimerEvent: {}
+[1.809444] (-) TimerEvent: {}
+[1.916946] (-) TimerEvent: {}
+[2.018702] (-) TimerEvent: {}
+[2.122611] (-) TimerEvent: {}
+[2.223242] (-) TimerEvent: {}
+[2.324214] (-) TimerEvent: {}
+[2.424836] (-) TimerEvent: {}
+[2.527589] (-) TimerEvent: {}
+[2.628352] (-) TimerEvent: {}
+[2.729056] (-) TimerEvent: {}
+[2.829717] (-) TimerEvent: {}
+[2.930107] (-) TimerEvent: {}
+[3.030722] (-) TimerEvent: {}
+[3.131186] (-) TimerEvent: {}
+[3.231877] (-) TimerEvent: {}
+[3.332689] (-) TimerEvent: {}
+[3.433677] (-) TimerEvent: {}
+[3.534578] (-) TimerEvent: {}
+[3.634904] (-) TimerEvent: {}
+[3.736084] (-) TimerEvent: {}
+[3.836627] (-) TimerEvent: {}
+[3.937393] (-) TimerEvent: {}
+[4.038099] (-) TimerEvent: {}
+[4.139017] (-) TimerEvent: {}
+[4.240603] (-) TimerEvent: {}
+[4.341026] (-) TimerEvent: {}
+[4.441434] (-) TimerEvent: {}
+[4.542234] (-) TimerEvent: {}
+[4.642622] (-) TimerEvent: {}
+[4.743296] (-) TimerEvent: {}
+[4.843674] (-) TimerEvent: {}
+[4.944222] (-) TimerEvent: {}
+[5.045475] (-) TimerEvent: {}
+[5.146268] (-) TimerEvent: {}
+[5.246787] (-) TimerEvent: {}
+[5.347243] (-) TimerEvent: {}
+[5.447591] (-) TimerEvent: {}
+[5.548775] (-) TimerEvent: {}
+[5.649526] (-) TimerEvent: {}
+[5.750149] (-) TimerEvent: {}
+[5.850827] (-) TimerEvent: {}
+[5.951411] (-) TimerEvent: {}
+[6.051791] (-) TimerEvent: {}
+[6.152103] (-) TimerEvent: {}
+[6.253441] (-) TimerEvent: {}
+[6.354590] (-) TimerEvent: {}
+[6.455122] (-) TimerEvent: {}
+[6.555462] (-) TimerEvent: {}
+[6.657715] (-) TimerEvent: {}
+[6.758351] (-) TimerEvent: {}
+[6.859069] (-) TimerEvent: {}
+[6.960178] (-) TimerEvent: {}
+[7.061628] (-) TimerEvent: {}
+[7.162176] (-) TimerEvent: {}
+[7.262682] (-) TimerEvent: {}
+[7.362977] (-) TimerEvent: {}
+[7.463452] (-) TimerEvent: {}
+[7.563963] (-) TimerEvent: {}
+[7.664367] (-) TimerEvent: {}
+[7.765262] (-) TimerEvent: {}
+[7.866003] (-) TimerEvent: {}
+[7.967164] (-) TimerEvent: {}
+[8.067968] (-) TimerEvent: {}
+[8.168517] (-) TimerEvent: {}
+[8.269377] (-) TimerEvent: {}
+[8.370571] (-) TimerEvent: {}
+[8.471232] (-) TimerEvent: {}
+[8.571621] (-) TimerEvent: {}
+[8.672527] (-) TimerEvent: {}
+[8.773224] (-) TimerEvent: {}
+[8.873848] (-) TimerEvent: {}
+[8.974418] (-) TimerEvent: {}
+[9.074868] (-) TimerEvent: {}
+[9.175406] (-) TimerEvent: {}
+[9.275912] (-) TimerEvent: {}
+[9.376579] (-) TimerEvent: {}
+[9.477173] (-) TimerEvent: {}
+[9.577602] (-) TimerEvent: {}
+[9.677960] (-) TimerEvent: {}
+[9.778287] (-) TimerEvent: {}
+[9.878856] (-) TimerEvent: {}
+[9.979305] (-) TimerEvent: {}
+[10.079695] (-) TimerEvent: {}
+[10.180337] (-) TimerEvent: {}
+[10.280636] (-) TimerEvent: {}
+[10.381377] (-) TimerEvent: {}
+[10.481966] (-) TimerEvent: {}
+[10.583207] (-) TimerEvent: {}
+[10.684541] (-) TimerEvent: {}
+[10.785187] (-) TimerEvent: {}
+[10.885713] (-) TimerEvent: {}
+[10.987514] (-) TimerEvent: {}
+[11.088606] (-) TimerEvent: {}
+[11.189303] (-) TimerEvent: {}
+[11.290219] (-) TimerEvent: {}
+[11.390529] (-) TimerEvent: {}
+[11.491135] (-) TimerEvent: {}
+[11.591735] (-) TimerEvent: {}
+[11.691993] (-) TimerEvent: {}
+[11.792299] (-) TimerEvent: {}
+[11.892803] (-) TimerEvent: {}
+[11.993809] (-) TimerEvent: {}
+[12.094981] (-) TimerEvent: {}
+[12.195511] (-) TimerEvent: {}
+[12.295748] (-) TimerEvent: {}
+[12.396752] (-) TimerEvent: {}
+[12.497042] (-) TimerEvent: {}
+[12.597392] (-) TimerEvent: {}
+[12.697637] (-) TimerEvent: {}
+[12.797899] (-) TimerEvent: {}
+[12.898625] (-) TimerEvent: {}
+[12.999145] (-) TimerEvent: {}
+[13.099511] (-) TimerEvent: {}
+[13.199892] (-) TimerEvent: {}
+[13.300282] (-) TimerEvent: {}
+[13.400627] (-) TimerEvent: {}
+[13.500973] (-) TimerEvent: {}
+[13.601302] (-) TimerEvent: {}
+[13.701685] (-) TimerEvent: {}
+[13.802150] (-) TimerEvent: {}
+[13.902499] (-) TimerEvent: {}
+[14.002843] (-) TimerEvent: {}
+[14.103239] (-) TimerEvent: {}
+[14.203629] (-) TimerEvent: {}
+[14.303938] (-) TimerEvent: {}
+[14.404239] (-) TimerEvent: {}
+[14.505364] (-) TimerEvent: {}
+[14.605958] (-) TimerEvent: {}
+[14.706487] (-) TimerEvent: {}
+[14.807049] (-) TimerEvent: {}
+[14.907450] (-) TimerEvent: {}
+[15.007888] (-) TimerEvent: {}
+[15.108957] (-) TimerEvent: {}
+[15.209475] (-) TimerEvent: {}
+[15.309822] (-) TimerEvent: {}
+[15.410682] (-) TimerEvent: {}
+[15.513514] (-) TimerEvent: {}
+[15.619996] (-) TimerEvent: {}
+[15.721159] (-) TimerEvent: {}
+[15.821663] (-) TimerEvent: {}
+[15.922235] (-) TimerEvent: {}
+[16.023239] (-) TimerEvent: {}
+[16.124705] (-) TimerEvent: {}
+[16.225246] (-) TimerEvent: {}
+[16.326338] (-) TimerEvent: {}
+[16.427521] (-) TimerEvent: {}
+[16.528451] (-) TimerEvent: {}
+[16.629621] (-) TimerEvent: {}
+[16.730160] (-) TimerEvent: {}
+[16.831085] (-) TimerEvent: {}
+[16.931860] (-) TimerEvent: {}
+[17.032551] (-) TimerEvent: {}
+[17.133457] (-) TimerEvent: {}
+[17.234008] (-) TimerEvent: {}
+[17.334550] (-) TimerEvent: {}
+[17.435182] (-) TimerEvent: {}
+[17.536417] (-) TimerEvent: {}
+[17.637718] (-) TimerEvent: {}
+[17.738331] (-) TimerEvent: {}
+[17.839162] (-) TimerEvent: {}
+[17.939646] (-) TimerEvent: {}
+[18.040266] (-) TimerEvent: {}
+[18.140857] (-) TimerEvent: {}
+[18.232204] (robot_avoidance) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable avoidance\x1b[0m\n'}
+[18.241115] (-) TimerEvent: {}
+[18.341995] (-) TimerEvent: {}
+[18.444324] (-) TimerEvent: {}
+[18.545089] (-) TimerEvent: {}
+[18.645696] (-) TimerEvent: {}
+[18.746059] (-) TimerEvent: {}
+[18.847919] (-) TimerEvent: {}
+[18.948505] (-) TimerEvent: {}
+[19.049167] (-) TimerEvent: {}
+[19.150758] (-) TimerEvent: {}
+[19.251108] (-) TimerEvent: {}
+[19.351595] (-) TimerEvent: {}
+[19.451991] (-) TimerEvent: {}
+[19.552448] (-) TimerEvent: {}
+[19.652878] (-) TimerEvent: {}
+[19.753655] (-) TimerEvent: {}
+[19.854153] (-) TimerEvent: {}
+[19.956138] (-) TimerEvent: {}
+[20.056877] (-) TimerEvent: {}
+[20.157568] (-) TimerEvent: {}
+[20.257964] (-) TimerEvent: {}
+[20.358585] (-) TimerEvent: {}
+[20.441270] (robot_avoidance) StdoutLine: {'line': b'[100%] Built target avoidance\n'}
+[20.460386] (-) TimerEvent: {}
+[20.489493] (robot_avoidance) CommandEnded: {'returncode': 0}
+[20.561748] (-) TimerEvent: {}
+[20.661864] (robot_avoidance) JobProgress: {'identifier': 'robot_avoidance', 'progress': 'install'}
+[20.661998] (-) TimerEvent: {}
+[20.706302] (robot_avoidance) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance'], 'cwd': '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'razanhmede'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/razanhmede'), ('OLDPWD', '/home/razanhmede'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '1834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/razanhmede/Johnny-Answers-Session11/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'razanhmede'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'razanhmede'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/razanhmede-VirtualBox:@/tmp/.ICE-unix/1631,unix/razanhmede-VirtualBox:/tmp/.ICE-unix/1631'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a5540a5b_a645_47bb_907a_65b189dd8866'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4JQLS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance:/opt/ros/humble')]), 'shell': False}
+[20.756354] (robot_avoidance) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.757006] (robot_avoidance) StdoutLine: {'line': b'-- Installing: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance\n'}
+[20.762981] (-) TimerEvent: {}
+[20.814840] (robot_avoidance) StdoutLine: {'line': b'-- Set runtime path of "/home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance" to ""\n'}
+[20.815077] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch\n'}
+[20.815169] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch/robot_avoidance_launch.py\n'}
+[20.816537] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/package_run_dependencies/robot_avoidance\n'}
+[20.816779] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/parent_prefix_path/robot_avoidance\n'}
+[20.816859] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.sh\n'}
+[20.816922] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.dsv\n'}
+[20.818872] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.sh\n'}
+[20.819238] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.dsv\n'}
+[20.819394] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.bash\n'}
+[20.819459] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.sh\n'}
+[20.819516] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.zsh\n'}
+[20.819575] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.dsv\n'}
+[20.819631] (robot_avoidance) StdoutLine: {'line': b'-- Installing: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.dsv\n'}
+[20.821390] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/packages/robot_avoidance\n'}
+[20.834360] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig.cmake\n'}
+[20.835368] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig-version.cmake\n'}
+[20.835629] (robot_avoidance) StdoutLine: {'line': b'-- Up-to-date: /home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.xml\n'}
+[20.840869] (robot_avoidance) CommandEnded: {'returncode': 0}
+[20.863338] (-) TimerEvent: {}
+[20.966648] (-) TimerEvent: {}
+[21.006036] (robot_avoidance) JobEnded: {'identifier': 'robot_avoidance', 'rc': 0}
+[21.008302] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target avoidance[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[01m[K/home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In member function ‘[01m[Kstd::vector<float> AvoidanceNode::calculate_resultant(const std::vector<float>&, const std::vector<float>&)[m[K’:
+[01m[K/home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:120:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity[m[K’ was not declared in this scope
+  120 |   [01;31m[Klinear_velocity[m[K *= resultant_gain;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:121:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_velocity[m[K’ was not declared in this scope
+  121 |   [01;31m[Kangular_velocity[m[K *= resultant_gain;
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:134:70:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{resultant_x, resultant_y, angular_velocity, linear_velocity}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<float>[m[K’
+  134 |   return {resultant_x, resultant_y, angular_velocity, linear_velocity[01;31m[K}[m[K;
+      |                                                                      [01;31m[K^[m[K
+      |                                                                      [01;31m[K|[m[K
+      |                                                                      [01;31m[K<brace-enclosed initializer list>[m[K
+gmake[2]: *** [CMakeFiles/avoidance.dir/build.make:76: CMakeFiles/avoidance.dir/src/avoidance.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/avoidance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

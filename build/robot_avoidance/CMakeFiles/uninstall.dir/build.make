@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance
+CMAKE_SOURCE_DIR = /home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance
+CMAKE_BINARY_DIR = /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance /home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

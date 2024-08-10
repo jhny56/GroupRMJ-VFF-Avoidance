@@ -1,0 +1,71 @@
+[0.031s] Invoking command in '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance -DCMAKE_INSTALL_PREFIX=/home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance
+[1.233s] -- The C compiler identification is GNU 11.4.0
+[1.680s] -- The CXX compiler identification is GNU 11.4.0
+[1.704s] -- Detecting C compiler ABI info
+[1.874s] -- Detecting C compiler ABI info - done
+[1.881s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.882s] -- Detecting C compile features
+[1.893s] -- Detecting C compile features - done
+[1.901s] -- Detecting CXX compiler ABI info
+[2.006s] -- Detecting CXX compiler ABI info - done
+[2.013s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.013s] -- Detecting CXX compile features
+[2.014s] -- Detecting CXX compile features - done
+[2.072s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.732s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.048s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.091s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.109s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.423s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.429s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.845s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.905s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.061s] -- Looking for pthread.h
+[4.249s] -- Looking for pthread.h - found
+[4.252s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.328s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.328s] -- Found Threads: TRUE  
+[4.657s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.872s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[5.023s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.154s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[5.192s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.301s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.312s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.312s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.991s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.192s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.194s] -- Configured cppcheck include dirs: /home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/include
+[6.194s] -- Configured cppcheck exclude dirs and/or files: 
+[6.196s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.197s] -- Added test 'lint_cmake' to check CMake code style
+[6.199s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.201s] -- Added test 'uncrustify' to check C / C++ code style
+[6.201s] -- Configured uncrustify additional arguments: 
+[6.203s] -- Added test 'xmllint' to check XML markup files
+[6.211s] -- Configuring done
+[6.286s] -- Generating done
+[6.288s] -- Build files have been written to: /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance
+[6.299s] Invoked command in '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance -DCMAKE_INSTALL_PREFIX=/home/razanhmede/Johnny-Answers-Session11/install/robot_avoidance
+[6.302s] Invoking command in '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance -- -j4 -l4
+[6.378s] [ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[11.251s] [01m[K/home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In member function ‘[01m[Kstd::vector<float> AvoidanceNode::calculate_resultant(const std::vector<float>&, const std::vector<float>&)[m[K’:
+[11.251s] [01m[K/home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:120:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Klinear_velocity[m[K’
+[11.251s]   120 |   [01;31m[Klinear_velocity[m[K *= resultant_gain;
+[11.251s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[11.263s] [01m[K/home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:121:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_velocity[m[K’ was not declared in this scope
+[11.263s]   121 |   [01;31m[Kangular_velocity[m[K *= resultant_gain;
+[11.263s]       |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[11.264s] [01m[K/home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:134:70:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{resultant_x, resultant_y, angular_velocity, linear_velocity}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kstd::vector<float>[m[K’
+[11.264s]   134 |   return {resultant_x, resultant_y, angular_velocity, linear_velocity[01;31m[K}[m[K;
+[11.264s]       |                                                                      [01;31m[K^[m[K
+[11.264s]       |                                                                      [01;31m[K|[m[K
+[11.264s]       |                                                                      [01;31m[K<brace-enclosed initializer list>[m[K
+[15.150s] gmake[2]: *** [CMakeFiles/avoidance.dir/build.make:76: CMakeFiles/avoidance.dir/src/avoidance.cpp.o] Error 1
+[15.151s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/avoidance.dir/all] Error 2
+[15.151s] gmake: *** [Makefile:146: all] Error 2
+[15.153s] Invoked command in '/home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance -- -j4 -l4

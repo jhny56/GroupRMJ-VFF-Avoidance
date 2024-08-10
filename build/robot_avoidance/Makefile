@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance
+CMAKE_SOURCE_DIR = /home/razanhmede/Johnny-Answers-Session11/src/robot_avoidance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance
+CMAKE_BINARY_DIR = /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razanhmede/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
