@@ -152,6 +152,7 @@ void AvoidanceNode::publish_markers(const std::vector<float>& attraction, const 
     return marker;
   };
 
+  // publish markers
   marker_pub_->publish(create_marker(attraction, "attraction", 0, 0.0, 0.0, 1.0)); //green
   marker_pub_->publish(create_marker(repulsion, "repulsion", 1, 1.0, 0.0, 0.0)); // red
   marker_pub_->publish(create_marker(resultant, "resultant", 2, 0.0, 1.0, 0.0)); // blue
