@@ -58,22 +58,22 @@ void AvoidanceNode::timer_callback()
 
 void AvoidanceNode::odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
-   double roll, pitch, yaw;
+  // double roll, pitch, yaw;
 
-  // Extract the orientation quaternion
-  auto orientation_q = msg->pose.pose.orientation;
+  // // Extract the orientation quaternion
+  // auto orientation_q = msg->pose.pose.orientation;
 
-  // Convert quaternion to Euler angles
-  tf2::Quaternion q(
-    orientation_q.x,
-    orientation_q.y,
-    orientation_q.z,
-    orientation_q.w
-  );
-  tf2::Matrix3x3 m(q);
-  m.getRPY(roll, pitch, yaw);
+  // // Convert quaternion to Euler angles
+  // tf2::Quaternion q(
+  //   orientation_q.x,
+  //   orientation_q.y,
+  //   orientation_q.z,
+  //   orientation_q.w
+  // );
+  // tf2::Matrix3x3 m(q);
+  // m.getRPY(roll, pitch, yaw);
 
-  current_angle_ = yaw;
+  // current_angle_ = yaw;
 }
 
 std::vector<float> AvoidanceNode::calculate_repulsion(const sensor_msgs::msg::LaserScan::SharedPtr msg)
@@ -111,10 +111,13 @@ std::vector<float> AvoidanceNode::calculate_resultant(const std::vector<float>& 
 
   float desired_angle = std::atan2(resultant_y, resultant_x);
 
-  float Kp = 0.3;
-  float angular_velocity = Kp * desired_angle;
+  // float Kp = 0.3;
+  // float angular_velocity = Kp * desired_angle;
+  float angular_velocity = (desired_angle / 1.5) * 0.5;
   float linear_velocity = std::sqrt(resultant_x * resultant_x + resultant_y * resultant_y);
   RCLCPP_INFO(this->get_logger(), "Calculated Angular Velocity: %f", angular_velocity);
+  RCLCPP_INFO(this->get_logger(), "Desired Angle: %f", desired_angle);
+
 
   angular_velocity = std::clamp(angular_velocity, -0.5f, 0.5f);
   linear_velocity = std::clamp(linear_velocity, -0.1f, 0.1f);
@@ -133,9 +136,9 @@ void AvoidanceNode::publish_markers(const std::vector<float>& attraction, const 
     marker.id = id;
     marker.type = visualization_msgs::msg::Marker::ARROW;
     marker.action = visualization_msgs::msg::Marker::ADD;
-    marker.scale.x = 0.1;
-    marker.scale.y = 0.2;
-    marker.scale.z = 0.2;
+    marker.scale.x = 0.05;
+    marker.scale.y = 0.1;
+    marker.scale.z = 0.1;
     marker.color.a = 1.0;
     marker.color.r = r;
     marker.color.g = g;

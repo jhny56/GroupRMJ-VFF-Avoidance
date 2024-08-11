@@ -28,7 +28,7 @@ private:
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_pub_;
   rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_pub_;
 
-  double current_angle_;
+  // double current_angle_;
   sensor_msgs::msg::LaserScan::SharedPtr latest_scan_;
 };
 
