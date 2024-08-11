@@ -41,7 +41,7 @@ include_directories(
 
 find_package(visualization_msgs REQUIRED)
 
-add_executable(avoidance src/avoidance.cpp)
+add_executable(avoidance src/avoidance_vff_main.cpp)
 
 ament_target_dependencies(avoidance
   rclcpp 
@@ -57,9 +57,9 @@ install(TARGETS
   avoidance
   DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY include/
-  DESTINATION include/
-)
+#install(DIRECTORY include/
+#  DESTINATION include/
+#)
 
 install(DIRECTORY launch/
   DESTINATION share/${PROJECT_NAME}/launch

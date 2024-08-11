@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance
+CMAKE_SOURCE_DIR = /home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance
+CMAKE_BINARY_DIR = /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -210,29 +210,29 @@ avoidance/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/build
 .PHONY : avoidance/fast
 
-src/avoidance.o: src/avoidance.cpp.o
-.PHONY : src/avoidance.o
+src/avoidance_vff_main.o: src/avoidance_vff_main.cpp.o
+.PHONY : src/avoidance_vff_main.o
 
 # target to build an object file
-src/avoidance.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/src/avoidance.cpp.o
-.PHONY : src/avoidance.cpp.o
+src/avoidance_vff_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o
+.PHONY : src/avoidance_vff_main.cpp.o
 
-src/avoidance.i: src/avoidance.cpp.i
-.PHONY : src/avoidance.i
+src/avoidance_vff_main.i: src/avoidance_vff_main.cpp.i
+.PHONY : src/avoidance_vff_main.i
 
 # target to preprocess a source file
-src/avoidance.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/src/avoidance.cpp.i
-.PHONY : src/avoidance.cpp.i
+src/avoidance_vff_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.i
+.PHONY : src/avoidance_vff_main.cpp.i
 
-src/avoidance.s: src/avoidance.cpp.s
-.PHONY : src/avoidance.s
+src/avoidance_vff_main.s: src/avoidance_vff_main.cpp.s
+.PHONY : src/avoidance_vff_main.s
 
 # target to generate assembly for a file
-src/avoidance.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/src/avoidance.cpp.s
-.PHONY : src/avoidance.cpp.s
+src/avoidance_vff_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/avoidance.dir/build.make CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.s
+.PHONY : src/avoidance_vff_main.cpp.s
 
 # Help Target
 help:
@@ -250,9 +250,9 @@ help:
 	@echo "... robot_avoidance_uninstall"
 	@echo "... uninstall"
 	@echo "... avoidance"
-	@echo "... src/avoidance.o"
-	@echo "... src/avoidance.i"
-	@echo "... src/avoidance.s"
+	@echo "... src/avoidance_vff_main.o"
+	@echo "... src/avoidance_vff_main.i"
+	@echo "... src/avoidance_vff_main.s"
 .PHONY : help
 
 

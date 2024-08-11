@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o: in function `void __gnu_cxx::new_allocator<AvoidanceNode>::construct<AvoidanceNode>(AvoidanceNode*)':
+avoidance_vff_main.cpp:(.text._ZN9__gnu_cxx13new_allocatorI13AvoidanceNodeE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI13AvoidanceNodeE9constructIS1_JEEEvPT_DpOT0_]+0x31): undefined reference to `AvoidanceNode::AvoidanceNode()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/avoidance.dir/build.make:221: avoidance] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/avoidance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,7 +1,0 @@
-[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:[m[K In member function ‘[01m[Kstd::vector<float> AvoidanceNode::calculate_resultant(const std::vector<float>&, const std::vector<float>&)[m[K’:
-[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:60:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear_velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-   60 |   float [01;35m[Klinear_velocity[m[K = std::sqrt(resultant_x * resultant_x + resultant_y * resultant_y);
-      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
-[01m[K/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp:61:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular_velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-   61 |   float [01;35m[Kangular_velocity[m[K = std::atan2(resultant_y, resultant_x);
-      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
