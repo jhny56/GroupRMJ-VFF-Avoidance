@@ -28,8 +28,15 @@ private:
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_pub_;
   rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_pub_;
 
-  double current_angle_;
+  // double current_angle_;
   sensor_msgs::msg::LaserScan::SharedPtr latest_scan_;
+
+  void load_parameters();
+
+  float repulsion_gain_;
+  float min_threshold_range_;
+  float max_linear_velocity_;
+  float max_angular_velocity_;
 };
 
 #endif  // AVOIDANCE__AVOIDANCE_NODE_HPP_

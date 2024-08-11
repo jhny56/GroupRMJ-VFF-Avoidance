@@ -5,6 +5,11 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 
 def generate_launch_description():
+    config = os.path.join(
+        get_package_share_directory('robot_avoidance'),
+        'config',
+        'avoidance_config.yaml'
+    )
     return LaunchDescription([
         Node(
             package='robot_avoidance',
@@ -12,10 +17,7 @@ def generate_launch_description():
             name='avoidance',
             output='screen',
             parameters=[
-                # Add any parameters here if needed
-            ],
-            remappings=[
-                # Add any topic remappings here if needed
+                config
             ]
         ),
     ])
