@@ -1,4 +1,4 @@
-#include "avoidance.hpp"
+#include "vff_avoidance/avoidance.hpp"
 #include <cmath>
 #include <algorithm>
 #include "tf2_geometry_msgs/tf2_geometry_msgs.hpp"
@@ -99,7 +99,6 @@ std::vector<float> AvoidanceNode::calculate_repulsion(const sensor_msgs::msg::La
 {
     float repulsion_x = 0.0;
     float repulsion_y = 0.0;
-    float repulsion_gain = 0.1;
 
     auto min_it = std::min_element(msg->ranges.begin(), msg->ranges.end());
     float min_range = *min_it;
@@ -108,8 +107,8 @@ std::vector<float> AvoidanceNode::calculate_repulsion(const sensor_msgs::msg::La
     if (min_range < min_threshold_range_) 
     {
         float angle = msg->angle_min + min_index * msg->angle_increment;
-        repulsion_x = repulsion_gain*(1.0 / min_range) * std::cos(angle);
-        repulsion_y = repulsion_gain*(1.0 / min_range) * std::sin(angle);
+        repulsion_x = repulsion_gain_*(1.0 / min_range) * std::cos(angle);
+        repulsion_y = repulsion_gain_*(1.0 / min_range) * std::sin(angle);
     }
 
     return {-repulsion_x, -repulsion_y};
@@ -117,7 +116,7 @@ std::vector<float> AvoidanceNode::calculate_repulsion(const sensor_msgs::msg::La
 
 std::vector<float> AvoidanceNode::calculate_attraction()
 {
-  float attraction_x = 0.2; // Constant forward attraction
+  float attraction_x = 1.0; // Constant forward attraction
   float attraction_y = 0.0;
 
   return {attraction_x, attraction_y};
@@ -130,7 +129,7 @@ std::vector<float> AvoidanceNode::calculate_resultant(const std::vector<float>& 
 
   float desired_angle = std::atan2(resultant_y, resultant_x);
 
-  float Kp = 0.3;
+  float Kp = 0.5;
   float angular_velocity = Kp * desired_angle;
   float linear_velocity = std::sqrt(resultant_x * resultant_x + resultant_y * resultant_y);
   RCLCPP_INFO(this->get_logger(), "Calculated Angular Velocity: %f", angular_velocity);
@@ -174,9 +173,9 @@ void AvoidanceNode::publish_markers(const std::vector<float>& attraction, const 
   };
 
   // publish markers
-  marker_pub_->publish(create_marker(attraction, "attraction", 0, 0.0, 0.0, 1.0)); //green
-  marker_pub_->publish(create_marker(repulsion, "repulsion", 1, 1.0, 0.0, 0.0)); // red
-  marker_pub_->publish(create_marker(resultant, "resultant", 2, 0.0, 1.0, 0.0)); // blue
+  marker_pub_->publish(create_marker(attraction, "attraction", 0, 0.0, 0.0, 1.0)); 
+  marker_pub_->publish(create_marker(repulsion, "repulsion", 1, 1.0, 0.0, 0.0));
+  marker_pub_->publish(create_marker(resultant, "resultant", 2, 0.0, 1.0, 0.0));
 }
 
 
