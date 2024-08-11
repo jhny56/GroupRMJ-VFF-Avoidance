@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o[0m
-[01m[K/home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance_vff_main.cpp:1:10:[m[K [01;31m[Kfatal error: [m[K./../../include/vff_avoidance/avoidance.hpp: No such file or directory
-    1 | #include [01;31m[K"./../../include/vff_avoidance/avoidance.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/avoidance.dir/build.make:76: CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/avoidance.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

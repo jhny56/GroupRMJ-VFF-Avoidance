@@ -15,7 +15,6 @@ public:
 
 private:
   void lidar_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg);
-  void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg);
   void timer_callback();
   std::vector<float> calculate_repulsion(const sensor_msgs::msg::LaserScan::SharedPtr msg);
   std::vector<float> calculate_attraction();
@@ -23,7 +22,6 @@ private:
   void publish_markers(const std::vector<float>& attraction, const std::vector<float>& repulsion, const std::vector<float>& resultant);
   
   rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr lidar_sub_;
-  rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_sub_;
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_pub_;
   rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_pub_;

@@ -1,0 +1,6 @@
+In file included from [01m[K/home/jhny56/Desktop/Session11Test/GroupRMJ-VFF-Avoidance/src/robot_avoidance/src/avoidance_vff_main.cpp:2[m[K:
+[01m[K/home/jhny56/Desktop/Session11Test/GroupRMJ-VFF-Avoidance/src/robot_avoidance/src/./vff_avoidance/avoidance.cpp:[m[K In member function ‘[01m[Kvoid AvoidanceNode::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jhny56/Desktop/Session11Test/GroupRMJ-VFF-Avoidance/src/robot_avoidance/src/./vff_avoidance/avoidance.cpp:78:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   78 | idanceNode::odom_callback([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr msg[m[K)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

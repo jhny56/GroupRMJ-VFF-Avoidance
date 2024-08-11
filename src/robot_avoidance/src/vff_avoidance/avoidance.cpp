@@ -10,9 +10,6 @@ AvoidanceNode::AvoidanceNode() : Node("avoidance_node")
   lidar_sub_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
     "scan", 10, std::bind(&AvoidanceNode::lidar_callback, this, std::placeholders::_1));
 
-  odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>(
-    "odom", 10, std::bind(&AvoidanceNode::odom_callback, this, std::placeholders::_1));
-
    timer_ = this->create_wall_timer(
     std::chrono::milliseconds(50), std::bind(&AvoidanceNode::timer_callback, this));
 
@@ -73,26 +70,6 @@ void AvoidanceNode::timer_callback()
 
   cmd_vel_pub_->publish(cmd_vel_msg);
   publish_markers(attraction, repulsion, resultant);
-}
-
-void AvoidanceNode::odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
-{
-  // double roll, pitch, yaw;
-
-  // // Extract the orientation quaternion
-  // auto orientation_q = msg->pose.pose.orientation;
-
-  // // Convert quaternion to Euler angles
-  // tf2::Quaternion q(
-  //   orientation_q.x,
-  //   orientation_q.y,
-  //   orientation_q.z,
-  //   orientation_q.w
-  // );
-  // tf2::Matrix3x3 m(q);
-  // m.getRPY(roll, pitch, yaw);
-
-  // current_angle_ = yaw;
 }
 
 std::vector<float> AvoidanceNode::calculate_repulsion(const sensor_msgs::msg::LaserScan::SharedPtr msg)
