@@ -1,0 +1,6 @@
+avoidance:
+  ros__parameters:
+    repulsion_gain: 0.1
+    min_threshold_range: 0.4
+    max_linear_velocity: 0.1
+    max_angular_velocity: 0.5
