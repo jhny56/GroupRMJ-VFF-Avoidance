@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/avoidance.dir/src/avoidance.cpp.o"
-  "CMakeFiles/avoidance.dir/src/avoidance.cpp.o.d"
+  "CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o"
+  "CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o.d"
   "avoidance"
   "avoidance.pdb"
 )

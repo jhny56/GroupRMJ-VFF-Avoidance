@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance/include/**",
+                "include/**",
+                "/usr/include/**",
+                "/opt/ros/humble/include/rclcpp",
+                "${workspaceFolder}/include/vff_avoidance",
+                "${workspaceFolder}"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

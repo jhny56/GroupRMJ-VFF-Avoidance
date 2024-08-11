@@ -1,0 +1,28 @@
+[0.463s] Invoking command in '/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance -- -j4 -l4
+[3.500s] [35m[1mConsolidate compiler generated dependencies of target avoidance[0m
+[3.733s] [ 50%] [32mBuilding CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o[0m
+[51.678s] [100%] [32m[1mLinking CXX executable avoidance[0m
+[55.109s] [100%] Built target avoidance
+[55.161s] Invoked command in '/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance -- -j4 -l4
+[55.794s] Invoking command in '/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance
+[55.941s] -- Install configuration: ""
+[55.946s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance
+[55.977s] -- Set runtime path of "/home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance" to ""
+[55.978s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch
+[55.978s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch/robot_avoidance_launch.py
+[55.978s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/package_run_dependencies/robot_avoidance
+[55.979s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/parent_prefix_path/robot_avoidance
+[55.983s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.sh
+[55.983s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.dsv
+[55.984s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.sh
+[55.984s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.dsv
+[55.984s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.bash
+[55.984s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.sh
+[55.984s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.zsh
+[55.984s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.dsv
+[55.984s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.dsv
+[56.033s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/packages/robot_avoidance
+[56.033s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig.cmake
+[56.034s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig-version.cmake
+[56.034s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.xml
+[56.057s] Invoked command in '/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance

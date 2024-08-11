@@ -1,0 +1,55 @@
+[0.061s] Invoking command in '/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance -- -j4 -l4
+[0.576s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.638s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.883s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.928s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.977s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.034s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.125s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.401s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.413s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.920s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.474s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.858s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.124s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.347s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[4.409s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.499s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.507s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.456s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.846s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.850s] -- Configured cppcheck include dirs: /home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance/include
+[5.850s] -- Configured cppcheck exclude dirs and/or files: 
+[5.853s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.854s] -- Added test 'lint_cmake' to check CMake code style
+[5.856s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.859s] -- Added test 'uncrustify' to check C / C++ code style
+[5.859s] -- Configured uncrustify additional arguments: 
+[5.861s] -- Added test 'xmllint' to check XML markup files
+[5.865s] -- Configuring done
+[5.952s] -- Generating done
+[5.965s] -- Build files have been written to: /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance
+[6.035s] [35m[1mConsolidate compiler generated dependencies of target avoidance[0m
+[6.103s] [100%] Built target avoidance
+[6.142s] Invoked command in '/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance -- -j4 -l4
+[6.348s] Invoking command in '/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance
+[6.362s] -- Install configuration: ""
+[6.363s] -- Up-to-date: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/lib/robot_avoidance/avoidance
+[6.364s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch
+[6.364s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/launch/robot_avoidance_launch.py
+[6.460s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/package_run_dependencies/robot_avoidance
+[6.460s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/parent_prefix_path/robot_avoidance
+[6.460s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.sh
+[6.461s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/ament_prefix_path.dsv
+[6.461s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.sh
+[6.462s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/environment/path.dsv
+[6.462s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.bash
+[6.463s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.sh
+[6.464s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.zsh
+[6.464s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/local_setup.dsv
+[6.464s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.dsv
+[6.464s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/ament_index/resource_index/packages/robot_avoidance
+[6.464s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig.cmake
+[6.465s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/cmake/robot_avoidanceConfig-version.cmake
+[6.465s] -- Installing: /home/mohamad/Inmind/Johnny-Answers-Session11/install/robot_avoidance/share/robot_avoidance/package.xml
+[6.471s] Invoked command in '/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance

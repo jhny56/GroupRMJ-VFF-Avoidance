@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance
+CMAKE_SOURCE_DIR = /home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance
+CMAKE_BINARY_DIR = /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance
 
 # Include any dependencies generated for this target.
 include CMakeFiles/avoidance.dir/depend.make
@@ -69,28 +69,28 @@ include CMakeFiles/avoidance.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/avoidance.dir/flags.make
 
-CMakeFiles/avoidance.dir/src/avoidance.cpp.o: CMakeFiles/avoidance.dir/flags.make
-CMakeFiles/avoidance.dir/src/avoidance.cpp.o: /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp
-CMakeFiles/avoidance.dir/src/avoidance.cpp.o: CMakeFiles/avoidance.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/avoidance.dir/src/avoidance.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/avoidance.dir/src/avoidance.cpp.o -MF CMakeFiles/avoidance.dir/src/avoidance.cpp.o.d -o CMakeFiles/avoidance.dir/src/avoidance.cpp.o -c /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp
+CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o: CMakeFiles/avoidance.dir/flags.make
+CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o: /home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance_vff_main.cpp
+CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o: CMakeFiles/avoidance.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o -MF CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o.d -o CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o -c /home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance_vff_main.cpp
 
-CMakeFiles/avoidance.dir/src/avoidance.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avoidance.dir/src/avoidance.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp > CMakeFiles/avoidance.dir/src/avoidance.cpp.i
+CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance_vff_main.cpp > CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.i
 
-CMakeFiles/avoidance.dir/src/avoidance.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avoidance.dir/src/avoidance.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance.cpp -o CMakeFiles/avoidance.dir/src/avoidance.cpp.s
+CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance/src/avoidance_vff_main.cpp -o CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.s
 
 # Object files for target avoidance
 avoidance_OBJECTS = \
-"CMakeFiles/avoidance.dir/src/avoidance.cpp.o"
+"CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o"
 
 # External object files for target avoidance
 avoidance_EXTERNAL_OBJECTS =
 
-avoidance: CMakeFiles/avoidance.dir/src/avoidance.cpp.o
+avoidance: CMakeFiles/avoidance.dir/src/avoidance_vff_main.cpp.o
 avoidance: CMakeFiles/avoidance.dir/build.make
 avoidance: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
 avoidance: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -217,7 +217,7 @@ avoidance: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 avoidance: /opt/ros/humble/lib/librosidl_runtime_c.so
 avoidance: /opt/ros/humble/lib/librcutils.so
 avoidance: CMakeFiles/avoidance.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable avoidance"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable avoidance"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/avoidance.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -229,6 +229,6 @@ CMakeFiles/avoidance.dir/clean:
 .PHONY : CMakeFiles/avoidance.dir/clean
 
 CMakeFiles/avoidance.dir/depend:
-	cd /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/src/robot_avoidance /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance /home/jhny56/Desktop/Session11/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles/avoidance.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance /home/mohamad/Inmind/Johnny-Answers-Session11/src/robot_avoidance /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance /home/mohamad/Inmind/Johnny-Answers-Session11/build/robot_avoidance/CMakeFiles/avoidance.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/avoidance.dir/depend
 
