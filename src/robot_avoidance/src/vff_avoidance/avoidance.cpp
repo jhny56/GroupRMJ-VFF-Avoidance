@@ -41,16 +41,6 @@ void AvoidanceNode::lidar_callback(const sensor_msgs::msg::LaserScan::SharedPtr 
 {
   latest_scan_ = msg;
 
-  auto repulsion = calculate_repulsion(msg);
-  auto attraction = calculate_attraction();
-  auto resultant = calculate_resultant(attraction, repulsion);
-
-  geometry_msgs::msg::Twist cmd_vel_msg;
-  cmd_vel_msg.angular.z = resultant[2];
-  cmd_vel_msg.linear.x = resultant[3];
-
-  cmd_vel_pub_->publish(cmd_vel_msg);
-  publish_markers(attraction, repulsion, resultant);
 }
 
 void AvoidanceNode::timer_callback()
